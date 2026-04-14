@@ -4,7 +4,6 @@ import { About } from "../Components/About";
 import { Services } from "../Components/Services";
 import { Projects } from "../Components/Projects";
 import { Testimonials } from "../Components/Testimonials";
-import { Contact } from "../Components/Contact";
 import Fullstackproject from "../Components/Fullstackproject";
 import LoomShowcase from "../Components/LoomShowcase";
 import ClientReviews from "../Components/ClientReviews";
@@ -23,7 +22,7 @@ export default function Home() {
       <LoomShowcase />
       <Testimonials />
       <ClientReviews />
-      <Contact />
+      
     </>
   );
 }
